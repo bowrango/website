@@ -1,0 +1,15 @@
+{{- /* Main template for rendering the homepage */ -}}
+
+{{- define "main" }}
+  {{- $aboutPage := site.GetPage "about/about" }}
+  
+  {{- if $aboutPage }}
+    <section id="about-home">
+      <!-- Render content from the about page -->
+      {{ $aboutPage.Content }}
+    </section>
+  {{- else }}
+    <p>Error: Could not find the about page content!</p>
+  {{- end }}
+  
+{{- end }}
