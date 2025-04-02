@@ -6,6 +6,8 @@ draft = false
 
 #### about
 
-I'm an engineer in the Boston area working on quantum computing software. I also study Mechanical Engineering at Purdue. See my [resume](/about/matt-bowring-resume.pdf) for more.
+I'm an engineer working on quantum computing software and a graduate student at Purdue University. I'm also [building hardware](https://gigabug.org). I currently live in the Boston area.
 
-This website is developed using Hugo and hosted with Cloudflare.
+See my [resume](/about/matt-bowring-resume.pdf) for more.
+
+This website is developed using Hugo and hosted with Cloudflare. 
