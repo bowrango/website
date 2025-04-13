@@ -1,7 +1,7 @@
 +++
 title = 'high school engineer'
 date = 2024-10-29T19:13:53-04:00
-draft = false
+draft = true
 +++
 
 I started CAD before programming. Highschool lunches were spent in the computer lab.
