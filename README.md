@@ -1,3 +1,2 @@
-Website source.
-
-Developed with Hugo and hosted on Cloudflare Pages
+Source for my personal website
+https://www.mattbowring.com
