@@ -1,6 +1,6 @@
-baseURL = 'https://gigabug.org/'
+baseURL = 'https://www.mattbowring.com/'
 languageCode = 'en-us'
-title = 'Gigabug'
+title = 'Matt Bowring'
 theme = "mytheme"
 
 [params.meta]
