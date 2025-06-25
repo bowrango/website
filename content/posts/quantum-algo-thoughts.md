@@ -1,7 +1,7 @@
 +++
 title = 'thoughts on quantum software'
 date = 2024-09-04T23:10:07-04:00
-draft = false
+draft = true
 +++
 
 Software design for quantum computing and thermodynamic hardware.
