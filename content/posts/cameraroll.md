@@ -13,7 +13,8 @@ images = [
   { src = "/canon.png", caption = "Ski lift at Cannon Mountain" },
   { src = "/nhbypass.png", caption = "White Mountains" },
   { src = "/austin1.png", caption = "Rock climbing around Austin,TX" },
-  { src = "/mtnbike.png", caption = "Biking around VT" }
+  { src = "/mtnbike.png", caption = "Biking around VT" },
+  { src = "/mitbanana.png", caption = "MIT banana lounge" }
 ]
 +++
 
