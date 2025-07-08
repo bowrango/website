@@ -22,4 +22,4 @@ The focus will be on the uniform controlled rotation (UCR) gates indicated by $R
 
 We learn from (1.) that sparse angles can make QSD optimal through optimization. This hints towards a direct approach as a proof of concept. I apply the main result of (2.) to the UCR gates at each recursive step of QSD. 
 
-I've omitted my imcomplete work and hope to pick this back up soon. Reach out if any of this interests you.
+I've omitted my incomplete work and hope to pick this back up soon. Reach out if any of this interests you.
