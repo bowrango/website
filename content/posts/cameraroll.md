@@ -14,7 +14,9 @@ images = [
   { src = "/nhbypass.png", caption = "White Mountains" },
   { src = "/austin1.png", caption = "Rock climbing around Austin,TX" },
   { src = "/mtnbike.png", caption = "Biking in VT" },
-  { src = "/mitbanana.png", caption = "Working at the MIT banana lounge" }
+  { src = "/mitbanana.png", caption = "Working at the MIT banana lounge" }, 
+  { src = "/skiing.png", caption = "Exploring" }, 
+  { src = "/winterovernight.jpg", caption = "Overnight" }
 ]
 +++
 

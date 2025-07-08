@@ -14,4 +14,4 @@ Develop electronic oscillator to study probabilistic bits 
 - No open source oscillator hardware design (?); Berkeley MAPP isn’t active 
 - Algorithm testbed for energy-based models (Ising machine, Boltzmann); Makes “quantum”/thermodynamic hardware accesible 
 - Current startups don’t have open access
-- During my career developing quantum computing library for matlab, I’ve seen firsthand difficulties in custom applications. I’m curious to explore adjacent tech k
+- During my career developing quantum computing library for matlab, I’ve seen firsthand difficulties in custom applications. I’m curious to explore adjacent tech

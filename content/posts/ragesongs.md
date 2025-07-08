@@ -1,7 +1,7 @@
 +++
-title = 'Songs I'd yell during a basement show'
+title = "Songs I'd yell during a basement show"
 date = 2025-07-02T17:14:34-04:00
-draft = true
+draft = false
 +++
 
 It's mostly rock music

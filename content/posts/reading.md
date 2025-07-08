@@ -4,7 +4,7 @@ date = 2024-09-20
 draft = false
 +++
 
-A collection of interesting papers, mostly for myself to keep track. 
+A list of notable papers I've found interesting (deprecated)
 
 [Variational Quantum Eigensolver Review](https://arxiv.org/abs/2111.05176)
 - big review

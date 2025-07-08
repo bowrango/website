@@ -4,9 +4,7 @@ date = 2025-06-16T22:59:00-04:00
 draft = false
 +++
 
-MATLAB has a built-in library for building, simulating, and running quantum circuits. I'm the lead developer and have worked on it since the release in R2023a.
-
-It's very easy to run on IBM Quantum hardware
+I'm the lead developer for MATLAB's quantum computing library. It supports building, simulating, and running gate-based quantum algorithms. It's very easy to run on IBM Quantum hardware
 ```MATLAB
 c = quantumCircuit(hGate(1));
 d = quantum.backend.QuantumDeviceIBM('ibm_fez');

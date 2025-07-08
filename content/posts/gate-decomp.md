@@ -20,10 +20,6 @@ The focus will be on the uniform controlled rotation (UCR) gates indicated by $R
 
 2. [This](https://arxiv.org/abs/2205.00081) proves an upper error bound on approximately block encoding a target matrix $A$ using UCR gates. It shows that for common matrices the error is well below the bound.
 
-We learn from (1.) that sparse angles can make QSD optimal through optimization. This hints towards a direct approach as a proof of concept. I apply the main result of (2.) to the UCR gates at each recursive step of QSD. The circuit for block encoding a real matrix $A$ is below. The proof starts by giving the error on the matrix oracle $O_A$ from thresholding rotation angles θˆ with cutoff δc,
+We learn from (1.) that sparse angles can make QSD optimal through optimization. This hints towards a direct approach as a proof of concept. I apply the main result of (2.) to the UCR gates at each recursive step of QSD. 
 
-$$
-δθ = θ ̃ − θ = ( Hˆ(⊗2n) P G ) δ θˆ ,
-$$
-
-![abc](/block-encode2.png)
+I've omitted my imcomplete work and hope to pick this back up soon. Reach out if any of this interests you.

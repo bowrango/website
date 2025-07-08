@@ -4,8 +4,6 @@ date = 2024-10-29T19:13:53-04:00
 draft = true
 +++
 
-I started CAD before programming. Highschool lunches were spent in the computer lab.
+I started CAD before programming and spent my lunch periods in the computer lab. My professor put me in contact with a subcontractor, where I designed fiber optic layouts for F.W. Webb warehouses. 
 
-Freelance design for fiber optic layouts of an F.W. Webb warehouse. 
-
-That led to a summer gig designing HVAC layouts for residential and commerical. I got caught playing the balloons tower defense stratedy game and got banished to the warehouse for a couple days. It was fun painting the office, though. Once I stacked up extra cardboard and took a nap underneath the staircase. 
+That led to a summer gig designing HVAC layouts for residential and commerical. 
