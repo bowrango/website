@@ -1,5 +1,5 @@
 +++
-title = 'optimal unitary gate synthesis?'
+title = 'Optimal unitary gate synthesis?'
 date = 2024-09-12T00:15:22-04:00
 draft = false
 +++

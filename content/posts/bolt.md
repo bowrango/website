@@ -1,5 +1,5 @@
 +++
-title = 'anduril bolt'
+title = 'Anduril Bolt'
 date = 2024-10-24T21:05:44-04:00
 draft = false
 +++

@@ -1,5 +1,5 @@
 +++
-title = 'visual image processing'
+title = 'How does the brain see?'
 date = 2024-09-17
 draft = false
 +++
