@@ -16,7 +16,11 @@ images = [
   { src = "/mtnbike.png", caption = "Biking in VT" },
   { src = "/mitbanana.png", caption = "Working at the MIT banana lounge" }, 
   { src = "/skiing.png", caption = "Exploring" }, 
-  { src = "/winterovernight.jpg", caption = "Overnight" }
+  { src = "/winterovernight.jpg", caption = "Overnight" },
+  { src = "/minuteman.png", caption = "Daily ride" },
+  { src = "/stanford.png", caption = "Stanford for Hot Chips" },
+  { src = "/horse.png", caption = "Horseback riding in SF" },
+  { src = "/flying.png", caption = "Working on my pilot license" }
 ]
 +++
 
