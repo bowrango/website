@@ -4,7 +4,7 @@ date = 2025-07-09T18:22:03-04:00
 draft = false
 +++
 
-I was accepted into the [Wolfram Research Physics Program](https://education.wolfram.com/summer-school/programs/physics/) to have my research advised under Stephen Wolfram. I unfortunately had to decline due to work conflicts but might be collaborating in the future.
+I was accepted into the [Wolfram Research Physics Program](https://education.wolfram.com/summer-school/programs/physics/) to have my work advised under Stephen Wolfram. I unfortunately had to decline due to work conflicts but might be collaborating in the future.
 
 My research would've been optimal annealing control of electronic oscillators for combinatorial optimization. 
 
