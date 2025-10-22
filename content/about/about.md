@@ -6,8 +6,8 @@ draft = false
 
 #### about
 
-I work on quantum computing software and study mech/ee at Purdue. I'm also [researching hardware](https://gigabug.org) and doing start-up work on the side. I currently live in Cambridge, MA.
+Welcome to my website. I work as quantum software engineer and am a graduate student. I write about some of my research [here](https://gigabug.org). My life questions come from the common space of physics, computing, numerics, markets, biology, and people. I'll occasionally write about these interests to document my quest of understanding them. I live in Cambridge, MA.
 
-Some interests include: cycling, hiking, lifting, climbing, music, cooking, reading, writing, geopolitics, neuroscience, markets/finance, fashion, design, videography.
+I also enjoy: cycling, lifting, hiking, climbing, running, riflery, and music. I hope to go skydiving and fly more.
 
-I built this website using Hugo and try to blog now and then.
+This website started in 2024 and is developed using the Hugo web framework. 
