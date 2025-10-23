@@ -5,6 +5,6 @@ draft = false
 +++
 
 
-Hi Christine. You seem cool and awesome. This is my fanpage for you.
+Hi Christina. You seem cool and awesome. I made this fanpage for you.
 
 Are you free next week for a drink? 
