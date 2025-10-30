@@ -10,4 +10,4 @@ Welcome to my website! I'm work as a quantum software engineer and am a graduate
 
 I also enjoy: cycling, lifting, hiking, climbing, running, skiing, riflery, flying, and music.
 
-Please feel free to contact me via email: matt at gigabug dot org.
+Please feel free to contact me via email: mbowring at purdue dot edu.
