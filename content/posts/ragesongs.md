@@ -1,10 +1,10 @@
 +++
-title = "Songs I'd yell during a basement show"
+title = "Music I Like"
 date = 2025-07-02T17:14:34-04:00
 draft = false
 +++
 
-It's mostly rock music
+Here is a small sample. It's mostly rock music
 
 - Nineteen (Movements)
 - I Can Tell There Was an Accident Here Earlier (Saosin)
