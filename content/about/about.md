@@ -6,7 +6,7 @@ draft = false
 
 #### about
 
-Welcome to my website! I'm a quantum software engineer and graduate student. I'm broadly curious about physics, computer systems, numerical methods, financial markets, biology, and people. I'm broadly interested in applying physics-based computing frameworks to hardware/software co-design of AI accelerators. Some of my current work can be seen [here](https://arxiv.org/abs/2512.23720) or on [GitHub](https://github.com/bowrango).
+Welcome to my website! I'm a quantum software engineer and graduate student. I'm broadly curious about physics, computer systems, numerical methods, financial markets, biology, and people. Specifically, I've been into physics-based computing frameworks for hardware/software co-design of AI accelerators. Some of my current work can be seen [here](https://arxiv.org/abs/2512.23720) or on [GitHub](https://github.com/bowrango).
 
 I also enjoy: cycling, lifting, hiking, climbing, running, skiing, riflery, flying, and music.
 
