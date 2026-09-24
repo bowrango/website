@@ -179,8 +179,7 @@ $$
 Lower Ising energy means larger mean curvature. It does *not* fix the smallest eigenvalue, and the smallest eigenvalue is what controls stability and the attraction-domain estimates.
 
 ## Figure 1: the spectra, predicted vs. measured
-
-![Hessian spectra of IK equilibria](figures/geometric_population_compact.png)
+![Hessian spectra of IK equilibria](/geometric_population_compact.png)
 
 *Blue histograms are measured Hessian eigenvalues and orange curves are the resolvent prediction. Columns: (a) typical critical points, (b) typical local minima, (c) lowest-energy minima found. Rows: $\rho=0.1$, $0.5$ and $1.25$. Dotted lines mark zero curvature. Broadening is $\eta=0.12$.*
 
