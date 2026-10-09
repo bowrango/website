@@ -2,18 +2,18 @@
 title = 'Computing with Oscillators'
 date = 2025-07-17T13:44:15-04:00
 draft = false
+weight = 6
 +++
 
-I developed a PCB to realize the weighted [Kuramoto model](https://en.wikipedia.org/wiki/Kuramoto_model) using coupled electronic oscillators. It is designed for combinatorial optimization and takes the form of an [oscillator-based Ising machine](https://arxiv.org/abs/1709.08102) (OIM). Interestingly, as the number of oscillators (variables) increases, the number of required cycles (time-to-solution) seems to remain constant. More broadly, these [dynamics can be modelled as probabilistic bits (p-bits)](https://arxiv.org/abs/2508.15234) for more general learning and optimization tasks. There is a zoo of research to develop p-bit hardware for such tasks due to the power/speed advantages of exploiting a physical process to perform computation. However, these devices remain in academic research largely due to their limited scalability and adoption. They lost [the hardware lottery](https://arxiv.org/abs/2009.06489).
+I developed a PCB to realize the weighted [Kuramoto model](https://en.wikipedia.org/wiki/Kuramoto_model) using coupled electronic oscillators. This work was accepted into the [Wolfram Research Physics Program](https://education.wolfram.com/summer-school/programs/physics/) to be advised under Stephen Wolfram. Unfortunately, because of my employment at the time, I had to decline due to work conflicts.
+
+The circuit is designed for combinatorial optimization and takes the form of an [oscillator-based Ising machine](https://arxiv.org/abs/1709.08102) (OIM). Interestingly, as the number of oscillators (variables) increases, the number of required cycles (time-to-solution) seems to remain constant. More broadly, these [dynamics can be modelled as probabilistic bits (p-bits)](https://arxiv.org/abs/2508.15234) for more general learning and optimization tasks. There is a zoo of research to develop p-bit hardware for such tasks due to the power/speed advantages of exploiting a physical process to perform computation. However, these devices remain in academic research largely due to their limited scalability and adoption. They lost [the hardware lottery](https://arxiv.org/abs/2009.06489).
 
 The SOTA devices uses fully-digital p-bits implemented on FPGAs or ASICs using modern process nodes. While the OIM is not necessarily the most scalable, it can be realized with a basic breadboard and scaled on a low-cost PCB as an experimental testbed. This PCB contains 8 LC oscillators (top board) connected through a programmable resistive network (bottom board).
 
 ![Circuit](/bug8.png)
 
 The system is a fully-connected graph, where each node is a LC oscillator, and each edge is a tunable resistor. It can therefore be used to solve an 8-variable binary optimization problem.
-
-![](/schematic.png)
-
 
 The theory of OIMs applies a pertubration analysis to a reduced phase model of a RLC network by mapping the phase of each oscillator $\theta_i$ to a binary variable $x_{i}$. The ESP32 controls resistive couplings (8-bit digital potentiometers) between each oscillator to encode the matrix $\mathbf{J}$ that defines the problem. The oscillators will then stabilize to phase configurations that minimize
 \begin{equation}
@@ -31,4 +31,8 @@ The figure below shows a SDE simulation of the weighted Kuramoto network to solv
 
 ![](/05-Nov-2025-23:23:21.png)
 
-There is lots of theoretical bifurcation and stability research on variants of the Kuramoto model, but applications to combinatorial optimization are limited. In general, the optimal annealing schedule can be understood as optimal control of a non-equilibrium system. This remains an open problem. However, recent work shows that [thermodynamically optimal paths](https://journals.aps.org/pre/pdf/10.1103/PhysRevE.109.065301) minimize entropy production. This work is grounded in statistical mechanics to show how multi-dimensional control can improve performance on constrained problems and give suitable annealing schedules, rather than the heuristics commonly used in practice. The PCB illustrated here is a proof-of-concept towards this goal.
+There is lots of theoretical bifurcation and stability research on variants of the Kuramoto model, but applications to combinatorial optimization are limited. In general, the optimal annealing schedule can be understood as optimal control of a non-equilibrium system. 
+
+Annealing heuristics bother me. Can we derive better protocols from first principles of statistical (nonequilibrium) physics? There has been recent work on a [formalism for optimized annealing](https://journals.aps.org/pre/pdf/10.1103/PhysRevE.109.065301) but it's application towards realistic multivariable optimization is unclear.
+
+This remains an open problem. However, recent work shows that [thermodynamically optimal paths](https://journals.aps.org/pre/pdf/10.1103/PhysRevE.109.065301) minimize entropy production. This work is grounded in statistical mechanics to show how multi-dimensional control can improve performance on constrained problems and give suitable annealing schedules, rather than the heuristics commonly used in practice. The PCB illustrated here is a proof-of-concept towards this goal.

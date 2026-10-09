@@ -2,9 +2,10 @@
 title = 'MATLAB goes Quantum'
 date = 2025-06-16T22:59:00-04:00
 draft = false
+weight = 3
 +++
 
-I'm the lead developer for the MATLAB Quantum Computing Library. It supports building, simulating, and running gate-based quantum algorithms. It's very easy to run on IBM Quantum hardware
+I previously lead development of the MATLAB Quantum Computing Library. It supports building, simulating, and running gate-based quantum algorithms. It's very easy to run on IBM Quantum hardware
 ```MATLAB
 c = quantumCircuit(hGate(1));
 d = quantum.backend.QuantumDeviceIBM('ibm_fez');
@@ -14,12 +15,11 @@ The quantum circuit is [compiled](https://arxiv.org/pdf/2308.07581) to [OpenQASM
 
 IBM hosts an annual quantum conference, and this posts reflects on my experience attending.
 
-### 2024
+### 2022
 
-This year was dubbed the Quantum Developer Conference because it was just for industry partners. The previous years had more marketing aspects. It took place at IBM Research in Yorktown Heights, NY. One key highlight was refactoring their entire runtime scheduler from Python to Rust, which was the main performance update for Qiskit 1.0. There were also plans to support more advanced features of OpenQASM 3.0. I also got a tour of their fabrication facility but no photos were allowed. The following two images are from IBM Research, where the most recent System Two was out for display.
+This was my first year attending. I met with Jay Gambetta and some others after the main presentation. They wanted us on stage next year to highlight the MATLAB integration with their Qiskit Runtime cloud service. During this time, the library wasn't released (it shipped with R2023a) and I was developing infrastructure to support hardware-agnostic code generation. I should've taken more pictures.
 
-![](/ibm2024a.png)
-![](/ibm2024b.png)
+![](/ibm2022a.png)
 
 ### 2023
 
@@ -31,8 +31,9 @@ On the second day, I gave a talk demonstrating the MATLAB Quantum Computing Libr
 
 ![](/ibm-speakers-me.png)
 
-### 2022
+### 2024
 
-This was my first year attending. I met with Jay Gambetta and some others after the main presentation. They wanted us on stage next year to highlight the MATLAB integration with their Qiskit Runtime cloud service. During this time, the library wasn't released (it shipped with R2023a) and I was developing infrastructure to support hardware-agnostic code generation. I should've taken more pictures.
+This year was dubbed the Quantum Developer Conference because it was just for industry partners. The previous years had more marketing aspects. It took place at IBM Research in Yorktown Heights, NY. One key highlight was refactoring their entire runtime scheduler from Python to Rust, which was the main performance update for Qiskit 1.0. There were also plans to support more advanced features of OpenQASM 3.0. I also got a tour of their fabrication facility but no photos were allowed. The following two images are from IBM Research, where the most recent System Two was out for display.
 
-![](/ibm2022a.png)
+![](/ibm2024a.png)
+![](/ibm2024b.png)

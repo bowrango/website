@@ -1,7 +1,8 @@
 +++
-title = "Music I Like"
+title = "Music survey"
 date = 2025-07-02T17:14:34-04:00
 draft = false
+weight = 2
 +++
 
 Here is a small sample. It's mostly rock music

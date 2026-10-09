@@ -1,10 +1,11 @@
 +++
-title = 'Reading'
+title = 'Paper survey'
 date = 2024-09-20
 draft = false
+weight = 1
 +++
 
-A list of notable papers I've found interesting (deprecated)
+An outdated list of notable papers I enjoyed.
 
 [Variational Quantum Eigensolver Review](https://arxiv.org/abs/2111.05176)
 - (2021) Comprehensive review examining VQE algorithm components and methods, identifying key challenges like vanishing gradients and quantum noise mitigation for achieving practical quantum computing advantage

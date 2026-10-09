@@ -1,10 +1,11 @@
 +++
-title = 'Towards optimal annealing of oscillator networks for combinatorial optimization'
+title = 'Towards optimal annealing of oscillator networks'
 date = 2026-09-23T19:30:41-04:00
 draft = false
+weight = 5
 +++
 
-*This is an informal explaination of my unreleased paper analyzing Kuramoto dynamics for combinatorial optimization. It's the optimal control theory of the experimental circuit I built previously. The connections to Morse theory follow from my conversations with Cleve Moler and Indika Rajapakse.*
+*This is an informal explaination of my unreleased paper analyzing Kuramoto dynamics for combinatorial optimization. It's the optimal control theory of the [experimental circuit I built previously](https://www.mattbowring.com/posts/kuramoto/). The connections to Morse theory follow from my conversations with Cleve Moler and Indika Rajapakse.*
 
 Disclaimer: The following text is an adapted AI summary of the paper.
 
