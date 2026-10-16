@@ -11,6 +11,11 @@ name = 'Posts'
 pageRef = '/posts'
 weight = 20
 
+[[menus.main]]
+name = 'Gallery'
+pageRef = '/gallery'
+weight = 30
+
 [module]
   [module.hugoVersion]
     extended = false

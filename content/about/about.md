@@ -11,7 +11,7 @@ About:
 - Physically active
     - cycling (~50mi/week), lifting (sbd 245/210/295lbs), hiking (NH Whites), climbing (v2-v3), and running (21min 5k)
 - Other hobbies
-    - journalism/blogging, skiing, riflery, and flying (slowly working on PPL)
+    - journalism/blogging, skiing, riflery, and flying
 
 Contact:
 - (personal) matt [at] this domain

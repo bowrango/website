@@ -1,7 +1,8 @@
 +++
-title = 'Cameraroll'
+title = 'Gallery'
 date = 2024-12-29T13:09:49-05:00
 draft = false
+aliases = ['/posts/cameraroll/']
 images = [
   { src = "/montana.png", caption = "Helena,MT" },
   { src = "/panama1.png", caption = "Panama City" },
